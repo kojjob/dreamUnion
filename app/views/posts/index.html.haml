@@ -1,6 +1,10 @@
 - @posts.each do |post|
-  = image_tag post.image.url(:small)
-  %h2= link_to post.title, post
+  = link_to (image_tag post.image.url(:small)),post
+  
+  %p
+    =post.comments.count
+    Comments
   %h5= post.user.name
+  %h2= link_to post.title, post
 
 = link_to "Add new post", new_post_path
