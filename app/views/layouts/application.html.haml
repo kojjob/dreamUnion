@@ -1,0 +1,18 @@
+!!!
+%html
+%head
+  %title Dream Union
+  = csrf_meta_tags
+  = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"}
+  %link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}
+
+%body
+  = render "shared/header"
+  %p.notice= notice 
+  %p.alert= alert  
+
+  = yield
+
+
