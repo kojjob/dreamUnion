@@ -19,6 +19,7 @@ gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'acts_as_votable', '~> 0.10.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
