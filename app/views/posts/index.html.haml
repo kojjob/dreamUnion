@@ -1,4 +1,6 @@
 - @posts.each do |post|
+  = image_tag post.image.url(:small)
   %h2= link_to post.title, post
+  %h5= post.user.name
 
 = link_to "Add new post", new_post_path

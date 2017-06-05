@@ -18,6 +18,7 @@ gem 'haml', '~> 5.0', '>= 5.0.1'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
